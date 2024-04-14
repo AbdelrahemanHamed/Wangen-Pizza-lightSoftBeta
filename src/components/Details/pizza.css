@@ -1,0 +1,251 @@
+:root{
+  --main-bg-color: #151515;
+  --main-font-color: #ff8c42;
+  --second-font-color: #fff;
+  /* background-color: var(--main-bg-color); */
+}
+
+
+.third-section {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+
+ 
+}
+
+.dark-mode-pizza {
+  background-color: var(--main-bg-color);
+  
+}
+
+.third-section h2 {
+  font-weight: 400;
+  font-size: 2rem;
+line-height: 1.8;
+letter-spacing: 3px;
+  margin-left: 9.25rem;
+  text-align: center;
+  width: fit-content;
+  color: var(--main-bg-color);
+}
+.dark-mode .third-section h2{
+  color: #fff;
+}
+.third-section h2 span {
+  color: var(--main-font-color);
+}
+.dark-mode-pizza h2{
+  color: #fff;
+}
+.third-section img {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  bottom: 0;
+}
+
+.third-section .separator {
+  width: 10px;
+  height: 120%;
+  position: absolute;
+  background-color: var(--main-font-color);
+  left: 48%;
+  bottom: -10px;
+  transform-origin: bottom;
+  transform: rotate(30deg);
+}
+
+.third-section ul {
+ position: relative;
+ left: 74%;
+}
+.third-section ul li {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2.8125rem;
+  margin-bottom: 12px;
+  color: var(--main-bg-color);
+}
+.dark-mode-pizza ul li{
+  color: #fff;
+}
+.dark-mode .third-section ul li {
+  color: var(--second-font-color);
+}
+.third-section ul li:nth-child(1) {
+  margin-left: 150px;
+
+}
+.third-section ul li:nth-child(2) {
+  margin-left: 120px;
+}
+.third-section ul li:nth-child(3) {
+  margin-left: 90px;
+}
+.third-section ul li:nth-child(4) {
+  margin-left: 60px;
+
+}
+.third-section ul li:nth-child(5) {
+  margin-left: 30px;
+}
+
+.order-online-now-btn {
+  position: absolute;
+  right: 10.4375rem;
+  bottom: 8.3125rem;
+}
+
+
+@media screen and (min-width:1968px) {
+  .third-section ul li:nth-child(1) {
+    margin-left: 150px;
+    margin-left: 550px;
+  }
+  .third-section ul li:nth-child(2) {
+    margin-left: 120px;
+    margin-left: 520px;
+  }
+  .third-section ul li:nth-child(3) {
+    margin-left: 90px;
+    margin-left: 490px;
+  }
+  .third-section ul li:nth-child(4) {
+    margin-left: 60px;
+    margin-left: 460px;
+  }
+  .third-section ul li:nth-child(5) {
+    margin-left: 30px;
+    margin-left: 430px;
+  }
+  .third-section ul li:last-child{
+    margin-left: 400px;
+  }
+  .order-online-now-btn {
+    position: absolute;
+    right: 10.4375rem;
+    bottom: 8.3125rem;
+  }
+  
+}
+
+
+.see-our-menu-btn {
+  position: absolute;
+  right: 30.75rem;
+  bottom: 8.3125rem;
+  cursor: pointer;
+}
+.see-our-menu-link {
+  text-decoration: none;
+  color: white;
+}
+.pizza-btn{
+  width: 201px;
+  height: 60px;
+  background-color: var(--main-font-color);
+  color: var(--second-font-color);
+  border: none;
+  outline: none;
+  transform: translate(45px,80px);
+font-size: 18px;
+font-weight: 600;
+line-height: 22.5px;
+  border-radius: 5px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .third-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  .third-section h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+  line-height: 1.8;
+  letter-spacing: 0px;
+    text-align: center;
+    width: 300px;
+    padding: 0 35px;
+    z-index: 6;
+height: 200px;
+position: relative;
+left: -100px;
+  }
+  .pizza-image{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+  }
+ 
+  .third-section .separator{
+    height: 600px;
+    width: 10px;
+    position: absolute;
+    background-color: var(--main-font-color);
+    left: 0%;
+    top: -30%;
+    transform-origin: bottom;
+    transform: rotate(90deg);
+  }
+ 
+  .pizza-btn{
+    width: 140px;
+    height: 52px;
+    transform: translate(0,0);
+  font-size: 14px;
+  
+  }
+  .see-our-menu-btn {
+    right: 0rem;
+    left: 150px;
+    margin-left: 40px;
+    bottom: 50px;
+   
+  }
+  .order-online-now-btn {
+    position: absolute;
+    left: 0.4375rem;
+    bottom: 50px;
+  }
+  .third-section ul {
+    position: relative;
+    left:-20%;
+    
+   }
+   .third-section ul li {
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: 1.8rem;
+  margin-bottom: 8px;
+
+   }
+   .third-section ul li:nth-child(1) {
+    margin-left: 50px;
+  
+  }
+  .third-section ul li:nth-child(2) {
+    margin-left: 40px;
+  }
+  .third-section ul li:nth-child(3) {
+    margin-left: 30px;
+  }
+  .third-section ul li:nth-child(4) {
+    margin-left: 20px;
+  
+  }
+  .third-section ul li:nth-child(5) {
+    margin-left: 10px;
+  }
+}

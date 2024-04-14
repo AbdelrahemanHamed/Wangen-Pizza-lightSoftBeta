@@ -1,0 +1,42 @@
+.slider{
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 10px #fff;
+}
+#right-arrow{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  position: relative;
+  left: 97%;
+  top: -220px;
+}
+.slider-container-main .slick-next::before{
+  content: url(../../images/Group\ 34\ \(1\).png );
+
+  margin-left: -10px;
+}
+.slider-container-main .slick-next:hover::before{
+  background-color: transparent;
+}
+
+
+.slider-container-main{
+position: relative;
+top: -150px;
+width: 95%;
+}
+@media screen and (max-width: 768px) {
+  .slider-container-main .slick-next::before{
+    content: url(../../images/Group\ 34\ \(1\).png );
+  
+    margin-left: -60px;
+  }
+  
+}

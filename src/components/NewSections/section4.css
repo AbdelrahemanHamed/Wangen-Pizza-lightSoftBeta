@@ -1,0 +1,123 @@
+.section4{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+
+}
+.dark-mode .section4{
+    background-color: #000;
+}
+.dark-mode.section4 p{
+
+color: #fff;
+}
+.text-section4{
+    position: relative;
+    left: 210px;
+    top: 50px;
+}
+.dark-mode.section4 .text-section4 h1{
+    color: #fff;
+}
+.text-section4 h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: Quicksand;
+    color: #000;
+    text-align: start;
+    width: 444px;
+    height: 88px;
+    margin: 0px 0 15px 40px;
+}
+.text-section4 p{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 30px;
+    width:511px;
+    height: 38px;
+    line-height: 37.5px;
+    margin: 35px 0 0 150px;
+}
+.all-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.all-content p{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 30px;
+    width:240px;
+    height: 38px;
+    line-height: 37.5px;
+}
+.all-content .line-chf{
+    position: relative;
+}
+.all-content .Chf p{
+    color: rgb(255,140,66);
+}
+.all-content .line-chf::after{
+    width: 1px;
+    position: absolute;
+    content: "";
+    height: 266px;
+    background-color: #000;
+    left: 84%;
+    top: 0;
+}
+.dark-mode.section4 .all-content .line-chf::after{
+    width: 1px;
+    position: absolute;
+    content: "";
+    height: 266px;
+    background-color: #fff;
+    left: 84%;
+    top: 0;
+}
+@media screen and (max-width: 768px) {
+    .text-section4 h1{
+        font-size: 30px;
+        width: 250px;
+        margin: 0px 0 15px -120px;
+        position: relative;
+        top: -52px;
+    } 
+    .text-section4 p{
+        font-weight: 700;
+        font-size: 20px;
+        width:311px;
+        height: 38px;
+        line-height: 37.5px;
+        margin: -0 0 0 0px;
+        display: none;
+    }   
+    .all-content p{
+        font-size: 16px;
+
+    }
+    .all-content{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,27vw);
+        margin-top: 0px;
+        gap: 55px;
+        margin-bottom: 25px;
+        position: relative;
+        top: -70px;
+    }
+    .wangen-8{
+        width: 25%;
+    }
+    .Chf{
+        width: 25%;
+    }
+    .all-content .line-chf::after{
+       display: none;
+    }
+    
+
+}

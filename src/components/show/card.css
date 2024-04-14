@@ -1,0 +1,114 @@
+:root{
+    --main-bg-color: #151515;
+    --main-font-color: #ff8c42;
+    --second-font-color: #fff;
+    /* background-color: var(--second-font-color); */
+}
+
+.dark-mode {
+    --main-bg-color: #151515;
+    --main-font-color: #ff8c42;
+    --second-font-color: #fff;
+  }
+  
+  .white-mode {
+    --main-bg-color: #fff;
+    --main-font-color: #ff5b00;
+    --second-font-color: #7b3000;
+  }
+  .dark-cart-parent{
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+   }
+
+
+.card {
+        position: relative;
+        top: 20px;
+        width: 70%;
+        margin: 100px auto;
+        margin-bottom: 50px;
+        background-color: #2F2F2F;
+        border-radius: 25px;
+        color: var(--second-font-color);
+        display: flex;
+        padding: 10px 0px 0 35px;
+        align-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+ }
+
+
+.dark-mode.card{
+    background-color:rgba(47, 47, 47, 1);
+    margin: auto;
+    top: 70px;
+}
+.card .text h1.Title{
+    font-size: 42px;
+  position: relative;
+  top: 0;
+  line-height: px;
+ color: var(--second-font-color);
+  font-family: Roboto;
+    font-weight: 500;
+}
+.card .text h1 span{
+    color: var(--main-font-color);
+}
+.card .text p{
+    font-size: 16px;
+    opacity: .9;
+    width: 478px;
+    line-height: 23.15px;
+    color: rgba(255, 255, 255, 1);
+    margin-block: 25px;
+    font-weight: 400;
+}
+.card .text .card-btn{
+   width: 201px;
+   height: 60px;
+    background-color: rgba(255, 153, 33, 1);
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    font-weight: 700;
+    line-height: 34.72px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.dark-mode.card .text .card-btn{
+    color: #000;
+}
+.card img{
+    margin-top: -12px;
+    border-radius: 25px;
+}
+@media screen and (max-width:756px) {
+    .card{
+        flex-direction: column;
+        width: 99%;
+        height: auto;
+        margin-top: 150px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    .card .text h1.Title{
+        font-size: 22px;
+    
+    }
+    .card img{
+        margin-top: 15px;
+       width: 320px;
+       height: 200px;
+       margin-right: 20px;
+    }
+    .card .text .card-btn{
+        width: 185px;
+        height: 40px;
+font-size: 18px;
+     }
+}

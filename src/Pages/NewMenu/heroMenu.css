@@ -1,0 +1,27 @@
+.hero-menu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/New-menu/menu-hero-bg.png);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   z-index: 10;
+   padding-bottom: 150px;
+}
+.hero-menu h1{
+    font-size: 100px;
+    font-weight:900 ;
+    font-family: Inter;
+    line-height: 121.02px;
+    text-align: center;
+    position: absolute;
+    left: 199px;
+    width: 316px;
+    height: 87px;
+    top: 210px;
+    text-transform: capitalize;
+    color: rgba(255, 140, 66, 1);
+}
+.hero-menu h1 span{
+    color: #fff;
+}
